@@ -83,7 +83,7 @@ export const getStaticPaths = async () => {
       current
     }
   }
-  `
+  `;
 
   const products = await client.fetch(query);
 
